@@ -1,0 +1,16 @@
+div.login {
+    padding-top: 10px;
+    height: 260px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 50px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  width:500px;
+}

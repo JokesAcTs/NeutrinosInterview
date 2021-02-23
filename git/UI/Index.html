@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</head>
+
+<body style="background:#c0c0c0;">
+    <header>
+        <center>    <br> <br> <br>
+            <img width="80px" height="80px"
+                src="">
+            <h1>Login</h1>
+        </center>
+    </header>
+    <div class="login" id="login">
+		<form onsubmit="validateUser()">
+			<label><b>Username : </b></label>
+			<input id="username" type="text" placeholder="Username:"></input><br><br><br>
+			<label><b>Password : </b></label>
+			<input id="password" type="password" placeholder="Password:"></input> <br><br><br>
+			
+			<button type="submit" class="button button2"
+                        onclick="validateUser();return false;">Login</button>
+		</form>
+	</div>
